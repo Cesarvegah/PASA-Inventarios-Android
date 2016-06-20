@@ -1,13 +1,12 @@
 <resources>
-    <string name="app_name">PASA-Inventarios</string>
+    <string name="app_name">PASA</string>
     <string name="title_activity_main">Bienvenido</string>
-
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
     <string name="prompt_Division">Selecciona una División: </string>
-
+    <string name="prompt_TipoEquipo">Selecciona un tipo de equipo: </string>
+    <string name="prompt_Almacen">Selecciona un almacén: </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

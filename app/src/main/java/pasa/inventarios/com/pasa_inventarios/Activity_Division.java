@@ -16,20 +16,23 @@ public class Activity_Division extends AppCompatActivity {
     // uicontrols
     Spinner spn_Division;
     //class members
-    String arr_Division[] = { "", "Pública", "Privada", "Gobierno"};
+    String arr_Division[] = { "", "Industrial y comercial", "Residencial", "Municipal"};
     ArrayAdapter<String> adap_Division;
     // local members
     String str_Division;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_division);
         spn_Division = (Spinner) findViewById(R.id.spn_Division);
+
         // Initialize and set Adapter
         adap_Division = new ArrayAdapter<String>(this,
                 android.R.layout.simple_spinner_item, arr_Division);
         adap_Division.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spn_Division.setAdapter(adap_Division);
+
         // Business Type Item Selected Listener
         spn_Division.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -54,5 +57,6 @@ public class Activity_Division extends AppCompatActivity {
                 // TODO Auto-generated method stub
             }
         });
+
     }
 }

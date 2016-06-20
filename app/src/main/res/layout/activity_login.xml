@@ -44,6 +44,7 @@
                    />
 
            </android.support.design.widget.TextInputLayout>
+
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,7 +66,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
                 android:layout_marginTop="24dp"
-                android:text="Iniciar Sesión"
+                android:text="Entrar"
                 android:id="@+id/btnAceptar"
                 android:textColor="@color/colorPrimaryT"
                 android:background="@color/colorPrimary"
